@@ -1,0 +1,71 @@
+.container{
+    display: flex;
+}
+
+
+.card-content{
+    height: 350px;
+    width: 300px;
+    box-shadow: 0.1px 0.2px 1px 1px;
+    border-radius: 5px;
+    margin-top: 200px;
+    margin-left: 100px;
+    overflow: hidden;
+    position: relative;
+}
+
+.text{
+    position: absolute;
+    background-color: white;
+    bottom: 50px;
+    overflow: hidden;
+    height: 30%;
+    padding: 15px;
+    width: 100%;
+    transition: 0.4s;
+}
+
+.heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+.text:hover{
+    transition: 0.4s;
+    height: 55%;
+}
+
+img{
+    height: 50%;
+}
+
+.lists{
+    margin-top: 25px;
+    margin-left: -20px;
+    color: rgb(76, 74, 74);
+}
+
+.section{
+    position: absolute;
+    bottom: 0;
+   
+    margin-top: 2px;
+    display: flex;
+}
+
+.para{
+    color: rgb(63, 63, 63);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.signal{
+    height: 20px;
+    width: 20px;
+    margin-top: 13px;
+    margin-left: 20px;
+}
+
+.section > p{
+    margin-left: 5px;
+    color: green;
+}
